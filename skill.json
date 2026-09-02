@@ -1,0 +1,41 @@
+{
+  "name": "genpark-structured-synthetic-data-evolution-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Structured synthetic data evolution generator executing multi-axis complexity expansion, constraint injection, and diversity filtering.",
+  "author": "genpark",
+  "category": "synthetic-data",
+  "tags": [
+    "evol-instruct",
+    "synthetic-data",
+    "prompt-evolution",
+    "dataset-distillation",
+    "instruction-tuning"
+  ],
+  "inputs": {
+    "seed_prompt": {
+      "type": "string"
+    },
+    "complexity_depth": {
+      "type": "integer"
+    },
+    "evolution_strategy": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "dataset_sample_id": {
+      "type": "string"
+    },
+    "evolved_prompt_text": {
+      "type": "string"
+    },
+    "complexity_score_gain_pct": {
+      "type": "number"
+    },
+    "evolved_dataset_manifest_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
